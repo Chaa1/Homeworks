@@ -1,4 +1,4 @@
-*,body,html{
+*,body,html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,23 +8,25 @@
     outline: none;
 }
 
-.main-block{
+.main-block {
     width: 1100px;
     background: #C4C4C4;
+    margin: auto;
     padding: 50px 50px;
 }
 
-
-
-.block, .block2{
+.block,
+.block2 {
     width: 1000px;
     background: #E6E6E6;
 }
-.block2{
+
+.block2 {
     margin-top: 50px;
 }
 
-.big-square, .big-square2{
+.big-square,
+.big-square2 {
     width: 200px;
     height: 200px;
     background: #FC8F8F;
@@ -33,20 +35,18 @@
     text-align: center;
     padding: 63px 62px;
 }
-.big-square{
+
+.big-square {
     float: left;
     margin-right: 15px;
 }
 
-.big-square2{
+.big-square2 {
     margin-left: 15px;
     float: right;
 }
-    
 
-
-
-.small-square{
+.small-square {
     width: 100px;
     height: 100px;
     background: #FC8F8F;
@@ -58,7 +58,6 @@
     margin-left: 15px;
 }
 
-.clear{
+.clear {
     clear: both;
 }
-
