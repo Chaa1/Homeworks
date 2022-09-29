@@ -1,4 +1,8 @@
-*,body,html{
+@import url(./font.css);
+
+*,
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,4 +10,133 @@
     list-style: none;
     border: none;
     outline: none;
+}
+
+.main-field {
+    width: 1920px;
+    height: 3279px;
+    margin: auto;
+    margin-top: 1px;
+    background: #E5E5E5;
+}
+
+/*   Секция 1 меню */
+.block-menu-navigation {
+    width: 1100px;
+    color: black;
+    margin: auto;
+    padding: 17px 326px 16px 303px;
+    background: #E5E5E5;
+}
+
+.block-menu-navigation .menu-item {
+    display: inline-block;
+    margin: auto;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+.menu-item-link {
+    font-family: Roboto-Regular;
+    font-weight: 400;
+}
+
+/* 2 секция блок beauty */
+.section2 {
+    height: 80px;
+    margin: 0 410px;
+    background: white;
+}
+
+.beauty-logo,
+.beauty-button {
+    width: 258px;
+
+    background: white;
+    display: inline-block;
+}
+
+.beauty-logo {
+    height: 80px;
+    background-image: url(../images/BEAUTY.png);
+}
+
+.beauty-phone {
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    padding: 20px 0;
+    columns: black;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.beauty-phone p {
+    float: left;
+}
+
+.button-coolback,
+.big-bg-button {
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 25px;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    float: right;
+    margin-top: 20px;
+}
+
+.button-coolback p {
+    float: left;
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+}
+
+/* 3 секция с большим блоком заливки */
+.section3 {
+    height: 604px;
+    background: yellof;
+}
+
+.big-bg {
+    width: 1920px;
+    height: 604px;
+    background-image: url(../images/Big_image.png);
+}
+
+.big-bg-b1,
+.big-bg-b2 {
+    width: 308px;
+    margin-left: 405px;
+    color: white;
+}
+
+.big-bg-b1 {
+    height: 44px;
+    font-size: 48px;
+    font-family: 'Roboto-Bold';
+    float: left;
+    margin-top: 192px;
+    margin-bottom: 50px;
+}
+
+.big-bg-b2 {
+    height: 35px;
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+}
+
+.big-bg-button {
+    margin-right: 90%;
+    margin-top: 100px;
+    background: none;
+    border: 2px solid white;
+    float: left;
+    margin-left: 400px;
+}
+
+.big-bg-button p {
+    color: white;
+    border-radius: 40px;
 }
