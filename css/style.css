@@ -19,17 +19,26 @@ html {
     margin-top: 1px;
     background: #E5E5E5;
 }
+.section1{
+    background: #E5E5E5;
+}
 
 /*   Секция 1 меню */
-.block-menu-navigation {
+
+.block-menu-navigation,
+    .block-menu-navigation2 {
     width: 1100px;
     color: black;
     margin: auto;
     padding: 17px 326px 16px 303px;
     background: #E5E5E5;
 }
+.block-menu-navigation2 {
+    width: 1400px;
+}
 
-.block-menu-navigation .menu-item {
+.block-menu-navigation .menu-item,
+.block-menu-navigation2 .menu-item {
     display: inline-block;
     margin: auto;
     margin-right: 30px;
@@ -43,16 +52,15 @@ html {
 
 /* 2 секция блок beauty */
 .section2 {
-    height: 80px;
-    margin: 0 410px;
+    
     background: white;
 }
-
+.block-beauty{
+    padding: 0 405px  ;
+}
 .beauty-logo,
 .beauty-button {
     width: 258px;
-
-    background: white;
     display: inline-block;
 }
 
@@ -86,6 +94,9 @@ html {
     float: right;
     margin-top: 20px;
 }
+.button-coolback{
+    background: white;
+}
 
 .button-coolback p {
     float: left;
@@ -93,10 +104,20 @@ html {
     font-family: 'Roboto-Regular';
 }
 
+/*   Секция 2-1 меню */
+.section2-1{
+    background: white;
+}
+
+.block-menu-navigation2{
+    margin-left: 350px;
+    background: white;
+}
+
+
 /* 3 секция с большим блоком заливки */
 .section3 {
     height: 604px;
-    background: yellof;
 }
 
 .big-bg {
@@ -140,3 +161,295 @@ html {
     color: white;
     border-radius: 40px;
 }
+
+/* Секции 4 "Специальные предложения" и
+          8 "Вы недавно смотрели" */
+.section4,
+.section8 {
+    height: 77px;
+}
+
+.block-section4,
+.block-section8 {
+    width: 319px;
+    height: 29px;
+    margin-top: 80px;
+    margin-left: 405px;
+}
+.block-section8{
+    margin-left: 0;
+}
+
+.block-section4 p,
+.block-section8 p{
+    font-size: 24px;
+    font-family: 'Roboto-Bold';
+}
+
+/* секция 5 четыри плитки с стульями */
+.section5 {
+    height: 363px;
+}
+
+.main-block-arm {
+    width: 1920px;
+    padding: 0 390px;
+}
+
+.armchair-block {
+    width: 255px;
+    height: 363px;
+    background: white;
+    margin-right: 30px;
+    float: left;
+
+}
+
+.armchair-block-png {
+    width: 125px;
+    height: 166px;
+    margin: auto;
+    margin-top: 25px;
+    background-image: url(../images/armchair.png);
+}
+
+.p1 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.p2 {
+    font-size: 21px;
+    font-family: 'Roboto-Medium';
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.button-buy {
+
+    width: 130px;
+    height: 35px;
+    padding: 6px 25px;
+    border: 2px solid #F13C6E;
+    background: #F13C6E;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin: auto;
+    margin-left: 60px;
+}
+
+.p3 {
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+    color: white;
+}
+
+/* секция 6 два больших розовых блока */
+.section6 {
+    height: 412px;
+}
+
+.big-rose-block1,
+.big-rose-block2 {
+    width: 540px;
+    height: 212px;
+    margin-top: 100px;
+    padding: 35px 35px 40px 45px;
+    display: inline-block;
+    background: #F13C6E;
+}
+
+.big-rose-block1 {
+    margin-right: 29px;
+}
+
+.big-rose-block1-1,
+.big-rose-block1-2,
+.big-rose-block2-1,
+.big-rose-block2-2 {
+    width: 200px;
+    height: 150px;
+}
+
+.big-rose-block1-1,
+.big-rose-block2-1 {
+    float: left;
+}
+
+.big-rose-block1-2,
+.big-rose-block2-2 {
+    float: right;
+}
+ .el-1-1-1,
+ .el-2-1-1
+ {
+    width: 250px;
+    height: 17px;
+ }
+ .el-1-1-1 p,
+ .el-2-1-1 p{
+    color: white;
+    font-family: 'Roboto-Bold';
+    font-size: 18px;
+ }
+ 
+ .el-1-1-2,
+ .el-2-1-2{
+    width: 240px;
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+ }
+ .el-1-1-2 p
+ .el-2-1-2 p{
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    line-height: 19.69px;
+ }
+
+.el-1-1-3, 
+.el-2-1-3{
+    width: 225px;
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 40px;
+    background: white;
+    color: black;
+}
+
+.el-1-2-1{
+    width: 140px;
+    height: 150px;
+    margin-left: 50px;
+    background-image: url(../images/envelope.png)
+}
+.el-2-2-1{
+    width: 188.67px;
+    height: 100px;
+    margin-top: 20px;
+    background-image: url(../images/car.png)
+}
+
+/* секция 7 impuls */
+.section7{
+    margin-top: 380px;
+    background: #E5E5E5;
+}
+
+.block-impuls{
+    width: 1110px;
+    height: 357px;
+    background: white;
+}
+
+.block-impuls-el{
+    width: 149px;
+    height: 49px;
+    margin: 35px 62.5px;
+    
+    display: inline-block;
+    background-image: url(../images/impuls.png);
+}
+
+/* секция 9 Популярные категории */
+.section9{
+    background: white;
+}
+.big-bloc-section9{
+    width: 1110px;
+    height: 373px;
+    
+    margin-left: 390px;
+}
+.midl-block-section9,
+.midl-block-section9-1{
+    width: 99px;
+    height: 253px;
+    margin-top: 60px;
+    float: left;
+}
+.midl-block-section9-1{
+    margin-left: 192px;
+}
+
+.midl-block-section9-1-el1{
+    width: 99px;
+    height: 40px;
+}
+.midl-block-section9-1-el1 p{
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    color: black;
+}
+.midl-block-section9-1-el2{
+    width: 99px;
+    height: 158px;
+    margin-top: 55px;
+}
+.midl-block-section9-1-el2,
+.long-string,
+.short-string{
+    font-family: Roboto-Regular;
+    font-size: 12px;
+    color: #828282;
+}
+
+/* сукция 10 логотипы соцсетей */
+.section10{
+   height: 45px;
+   background: white; 
+}
+.logo1,
+.logo2,
+.logo3,
+.logo4{
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 2px solid #F13C6E;
+    background: white;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo1{
+    background-image: url(../images/utube.png);
+    margin-left: 0;
+}
+
+.logo2{
+    background-image: url(../images/VK.png);
+}
+
+.logo3{
+    background-image: url(../images/facebook.png);
+}
+
+.logo4{
+    background-image: url(../images/instagram.png);
+}
+
+/* секция 11 логотипы соцсетей конец */
+.long-string{
+    width: 584px;
+    height: 14px;
+    margin-top: 25px;
+    margin-left: 405px;
+    float: left;
+}
+
+.short-string{
+    width: 181px;
+    height: 14px;
+    margin-top: 25px;
+    margin-left: 345px;
+    float: left;
+
+}
+
+
