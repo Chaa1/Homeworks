@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: 'Graphik-Bold';
+    src: url(./Graphik-Bold.eot);
+    src: url(./Graphik-Bold.eot?#iefix) format('embedded-opentype'),
+         url(./Graphik-Bold.otf) format('otf'),
+         url(./Graphik-Bold.svg#Graphik-Bold) format('svg'),
+         url(./Graphik-Bold.ttf) format('truetype'),
+         url(./Graphik-Bold.woff) format('woff'),
+         url(./Graphik-Bold.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Graphik-Regular';
+    src: url(./Graphik-Regular.eot);
+    src: url(./Graphik-Regular.eot?#iefix) format('embedded-opentype'),
+         url(./Graphik-Regular.otf) format('otf'),
+         url(./Graphik-Regular.svg#Graphik-Regular) format('svg'),
+         url(./Graphik-Regular.ttf) format('truetype'),
+         url(./Graphik-Regular.woff) format('woff'),
+         url(./Graphik-Regular.woff2) format('woff2');
+  }
+  
