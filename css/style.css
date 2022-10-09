@@ -536,56 +536,91 @@ span {
 }
 
 /* секция 13 */
-.main-box-section13{
-    width: 1440px;
+.section13{
     height: 900px;
+    background: #EEEEEE;
+    padding: 92px 48px 55px;
+}
+.section13 .main-box{
     display: flex;
-    padding-left: 75px;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    
 }
-.main-box-section13 .inner-box1{
-    width: 305px;
-    height: 900px;
-    flex-direction: column;
+.box1{
+    margin-right: 140px;
 }
-
-.main-box-section13 .inner-box1 h1{
+.box1 h3{
     font-size: 40px;
     line-height: 50px;
     font-family: 'Graphik-Bold';
-    margin-top: 0px;
-    text-align: center;
-    margin-bottom: -70px;
 }
-.photo-sections13{
+
+.box1 .img1-13{
     width: 300px;
     height: 300px;
-    margin-bottom: -150px;
-    background-image: url(../images/img1_section13.png);
+    margin-top: 28px;
 }
-.img2-section13{
-    width: 80px;
-    height: 32px;
-    margin-top: 50px;
-    background-image: url(../images/img2_section13.png);
-    margin-bottom: -130px;
+.box1 .img2-13{
+    display: block;
+    margin-top: 31px;
 }
 
-.main-box-section13 .inner-box1 p{
-    margin-bottom: -150px;
+.box1 p{
+    margin-top: 11px;
+    width: 290px;
+    height: 90px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Graphik-Regular';
 }
 
-.main-box-section13 .inner-box2{
-    width: 1065px;
-    height: 900px;
-    margin-top: 0;
-    
+.box1 h4{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Graphik-Bold';
 }
-.main-box-section13 .inner-box2 .product{
+
+.menu-box2 h3{
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Graphik-Bold';
+}
+
+.menu-box2 .menu-box2-item1{
+    margin-top: 21px;
+}
+
+.menu-box2 li{
+    margin-bottom: 15px;
+}
+
+.menu-box2 a{
+    color: #000;
+}
+.last-block{
+    padding-top: 52px;
     display: flex;
 }
-.main-box-section13 .menu-item{
-    /* flex-direction: column; */
+
+
+.deskription1{
+    margin-left: 14px;
+    margin-right: 850px;
+    
 }
+
+.last-block p{
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Graphik-Regular';
+}
+
+
+
+
+
 
 
 
