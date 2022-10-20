@@ -1,4 +1,6 @@
-*,body,html{
+*,
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,4 +8,73 @@
     list-style: none;
     border: none;
     outline: none;
+}
+
+.car {
+    width: 500px;
+    position: fixed;
+    top: 100px;
+    transform: scale(-1, 1);
+}
+
+.light {
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    margin-left: 350px;
+    margin-top: -260px;
+    background: blue;
+    animation: moveLight 1s infinite;
+}
+
+@keyframes moveLight{
+    from{
+        background: blue;
+    }
+    to{
+        background: red;
+    }
+}
+
+.wheel {
+    width: 100px;
+    margin-top: 235px;
+    transform: rotate(100deg);
+    animation: moveWheel .15s infinite;
+}
+
+@keyframes moveWheel{
+    from{
+       transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.wheel-back{
+    margin-left: 220px;
+}
+.wheel-front{
+    margin-left: 65px;
+}
+
+.fire-car{
+    position: fixed;
+    animation: moveFirecar 5s infinite;
+}
+
+@keyframes moveFirecar{
+    0%{
+        left: 0;
+        
+    }
+    50%{
+        left: 100%;
+        transform: translate(100%);
+    }
+    100%{
+        transform: scale(-1, 1);
+        left: 0;
+    }
 }
