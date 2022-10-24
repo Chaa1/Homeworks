@@ -1,85 +1,184 @@
-@media screen and (max-width:520px){
-    
-    .section1 img{
-        margin-left: 120px;
+@media screen and (max-width:2250px) {
+    .section1 .btn1 {
+        margin: 0 10px 0 280px;
     }
-    .section1 .menu ul{
-        display: flex;
-        flex-direction: column;
-    }
+}
 
-    .section1 .buttom1{
-        margin-left: 0;
+@media screen and (max-width:2220px) {
+    .section1 .btn1 {
+        margin: 0 10px 0 250px;
     }
-    
-    .section2 img{
-        display: none;
-    }
+}
 
-    .section2 .box1{
-        text-align: center;
-        margin-left: 350px;
+@media screen and (max-width:2170px) {
+    .section1 .btn1 {
+        margin: 0 10px 0 230px;
     }
+}
 
-    .section3 img{
-        display: none;
+@media screen and (max-width:2140px) {
+    .section1 .btn1 {
+        margin: 0 10px 0 200px;
     }
+}
 
-    .section4 .box-inner{
-        display: flex;
+@media screen and (max-width:2100px) {
+    .section1 .btn1 {
+        margin: 0 10px 0 190px;
+    }
+}
+
+@media screen and (max-width:2080px) {
+    .section1 .btn1 {
+        margin: 0 10px 0 170px;
+    }
+}
+
+@media screen and (max-width:2050px) {
+    .section1 .btn1 {
+        margin: 0 10px 0 150px;
+    }
+}
+
+@media screen and (max-width:2020px) {
+    .section1 .btn1 {
+        margin: 0 10px 0 120px;
+    }
+}
+
+@media screen and (max-width:1980px) {
+    .section1 .btn1 {
+        margin: 0 10px 0 80px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .section1 .btn1 {
+        margin: 0 10px 0 20px;
+    }
+}
+
+@media screen and (max-width:1820px) {
+    .section1 .menu-item {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width:1700px) {
+    .section1 .menu-item {
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width:1630px) {
+    .section1 .menu-item {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:1550px) {
+    .section1 .menu-item {
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    .section1 .btn-box {
         flex-direction: column;
         align-items: center;
     }
 
-    .section4 .box-inner1 h1,
-    .section4 .box-inner1 p,
-    .section4 .box-inner1 h3{
-        text-align: center;
+    .section1 .btn2{
+        margin-left: 10px;
     }
+}
 
-    .section5 .box2{
-        display: flex;
+@media screen and (max-width:1280px) {
+    .section1 ul{
         flex-direction: column;
-        align-items: center;
     }
+    .section1 .lible{
+        margin-right: 430px;
+    }
+}
 
-    .section6 h1{
-        width: 500px;
+@media screen and (max-width:1260px) {
+    .section1 .lible{
+        margin-right: 410px;
+    }
+}
+
+@media screen and (max-width:1230px) {
+    .section1 .lible{
+        margin-right: 380px;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    .section1 .lible{
+        margin-right: 340px;
+    }
+}
+
+@media screen and (max-width:1130px) {
+    .section1 .lible{
+        margin-right: 320px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .section1 .lible{
+        margin-right: 290px;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .section1 .lible{
+        margin-right: 250px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .section1 .lible{
+        margin-right: 190px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .section1 .lible{
+        margin-right: 110px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .section1 .lible{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .section1 .big-box{
+        flex-direction: column;
         margin: auto;
     }
-    .section6 .box2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .section1 .lible{
+        margin-right: 0;
+        margin-left: 0;
     }
-
-    .section7 img{
-        display: none;
+    .section1 .menu{
+        display: inline-block;
     }
-
-    .section7 p{
-        width: 800px;
+    .section1 ul{
         text-align: center;
-        margin-left: 50px;
     }
-    .section8 img{
-        display: none;
+    .section1 .big-box{
+        display: inline-block;
     }
-
-    .section9 img{
-        display: none;
-    }
-
-
-
-
     
-
-
-
-
-    
-   
-   
-   
 }
+@media screen and (max-width:370px) {
+    
+}
+
+
+
