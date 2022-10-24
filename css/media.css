@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @media screen and (max-width:2250px) {
     .section1 .btn1 {
         margin: 0 10px 0 280px;
@@ -84,10 +85,34 @@
 
 @media screen and (max-width:1480px) {
     .section1 .btn-box {
+=======
+@media screen and (max-width:2283px){}
+
+@media screen and (max-width:1366px){
+    .section2 .big-box img{
+        display: none;
+    }
+    .section2 .box2{
+        display: none;
+    }
+    .section2 .big-box .box1{
+        width: 100%;
+        text-align: center;
+    }
+    .section2 h1,
+    .section2 p,
+    .section2 .p2{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .section1 ul{
+>>>>>>> Stashed changes
         flex-direction: column;
-        align-items: center;
     }
 
+<<<<<<< Updated upstream
     .section1 .btn2{
         margin-left: 10px;
     }
@@ -182,3 +207,12 @@
 
 
 
+=======
+    .section1 .big-box{
+        justify-content: space-around;
+    }
+    .section1 li{
+        text-align: center;
+    }
+}
+>>>>>>> Stashed changes
