@@ -1,218 +1,68 @@
-<<<<<<< Updated upstream
-@media screen and (max-width:2250px) {
-    .section1 .btn1 {
-        margin: 0 10px 0 280px;
-    }
-}
-
-@media screen and (max-width:2220px) {
-    .section1 .btn1 {
-        margin: 0 10px 0 250px;
-    }
-}
-
-@media screen and (max-width:2170px) {
-    .section1 .btn1 {
-        margin: 0 10px 0 230px;
-    }
-}
-
-@media screen and (max-width:2140px) {
-    .section1 .btn1 {
-        margin: 0 10px 0 200px;
-    }
-}
-
-@media screen and (max-width:2100px) {
-    .section1 .btn1 {
-        margin: 0 10px 0 190px;
-    }
-}
-
-@media screen and (max-width:2080px) {
-    .section1 .btn1 {
-        margin: 0 10px 0 170px;
-    }
-}
-
-@media screen and (max-width:2050px) {
-    .section1 .btn1 {
-        margin: 0 10px 0 150px;
-    }
-}
-
-@media screen and (max-width:2020px) {
-    .section1 .btn1 {
-        margin: 0 10px 0 120px;
-    }
-}
-
-@media screen and (max-width:1980px) {
-    .section1 .btn1 {
-        margin: 0 10px 0 80px;
-    }
-}
-
-@media screen and (max-width: 1920px) {
-    .section1 .btn1 {
-        margin: 0 10px 0 20px;
-    }
-}
-
-@media screen and (max-width:1820px) {
-    .section1 .menu-item {
-        margin: 0 20px;
-    }
-}
-
-@media screen and (max-width:1700px) {
-    .section1 .menu-item {
-        margin: 0 15px;
-    }
-}
-
-@media screen and (max-width:1630px) {
-    .section1 .menu-item {
-        margin: 0 10px;
-    }
-}
-
-@media screen and (max-width:1550px) {
-    .section1 .menu-item {
-        margin: 0 5px;
-    }
-}
-
-@media screen and (max-width:1480px) {
-    .section1 .btn-box {
-=======
-@media screen and (max-width:2283px){}
-
-@media screen and (max-width:1366px){
-    .section2 .big-box img{
+@media screen and (max-width: 1509px){
+    
+    .section7 br{
         display: none;
     }
-    .section2 .box2{
+}
+
+@media screen and (max-width: 1208px){
+    .section8 .stik{
         display: none;
     }
-    .section2 .big-box .box1{
-        width: 100%;
-        text-align: center;
-    }
-    .section2 h1,
-    .section2 p,
-    .section2 .p2{
-        margin: auto;
-    }
 }
 
-@media screen and (max-width:1024px){
-    .section1 ul{
->>>>>>> Stashed changes
+
+@media screen and (max-width: 1000px){
+    .section7 .container{
         flex-direction: column;
     }
 
-<<<<<<< Updated upstream
-    .section1 .btn2{
-        margin-left: 10px;
+    .section10 .container{
+        padding: 0;
     }
 }
 
-@media screen and (max-width:1280px) {
-    .section1 ul{
+@media screen and (max-width: 768px) {
+    .section2 .wrap2 {
+        display: none;
+    }
+
+    .section3 .box-libles {
+        display: none;
+    }
+
+    .section3 p{
+        margin-bottom: 100px;
+    }
+
+    .section4 .box{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .section1 .container {
         flex-direction: column;
     }
-    .section1 .lible{
-        margin-right: 430px;
+    .section11 .menu-wrap{
+        padding-left: 0;
+    }
+    .section11 .menu{
+        margin-top: 20px;
+        
     }
 }
 
-@media screen and (max-width:1260px) {
-    .section1 .lible{
-        margin-right: 410px;
+@media screen and (max-width: 545px){
+    .section7 .photo-box{
+        display: none;
     }
-}
-
-@media screen and (max-width:1230px) {
-    .section1 .lible{
-        margin-right: 380px;
-    }
-}
-
-@media screen and (max-width:1190px) {
-    .section1 .lible{
-        margin-right: 340px;
-    }
-}
-
-@media screen and (max-width:1130px) {
-    .section1 .lible{
-        margin-right: 320px;
-    }
-}
-
-@media screen and (max-width:1100px) {
-    .section1 .lible{
-        margin-right: 290px;
-    }
-}
-
-@media screen and (max-width:1060px) {
-    .section1 .lible{
-        margin-right: 250px;
-    }
-}
-
-@media screen and (max-width:1000px) {
-    .section1 .lible{
-        margin-right: 190px;
-    }
-}
-
-@media screen and (max-width:920px) {
-    .section1 .lible{
-        margin-right: 110px;
-    }
-}
-
-@media screen and (max-width:800px) {
-    .section1 .lible{
-        margin-right: 0px;
-    }
-}
-
-@media screen and (max-width:670px) {
-    .section1 .big-box{
-        flex-direction: column;
-        margin: auto;
-    }
-    .section1 .lible{
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .section1 .menu{
-        display: inline-block;
-    }
-    .section1 ul{
-        text-align: center;
-    }
-    .section1 .big-box{
-        display: inline-block;
-    }
-    
-}
-@media screen and (max-width:370px) {
-    
-}
-
-
-
-=======
-    .section1 .big-box{
-        justify-content: space-around;
-    }
-    .section1 li{
+    .section7 p{
         text-align: center;
     }
 }
->>>>>>> Stashed changes
+@media screen and (max-width: 500px){
+    .section4 img{
+        display: none;
+    }
+}

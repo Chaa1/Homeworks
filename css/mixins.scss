@@ -1,0 +1,50 @@
+@mixin fc(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin fb(){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin fa(){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin  font($size, $line-height, $color, $weight, $family) {
+    font-size: $size;
+    line-height: $line-height;
+    color: $color;
+    width: $weight;
+    font-family: $family;
+}
+
+//section 3
+.section3 {
+    background: $color-pink;
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+    p {
+      @include font(50px, 60px, #000, 600, $bold);
+      text-align: center;
+    }
+    .box-libles {
+      max-width: 1440px;
+      margin-top: 69px;
+      display: flex;
+      @include fa();
+      margin-left: 0px;
+    }
+  }
+  
+  
