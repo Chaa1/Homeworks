@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(./Poppins-Regular.eot);
+    src: url(./Poppins-Regular.eot?#iefix) format('embedded-opentype'),
+         url(./Poppins-Regular.otf) format('otf'),
+         url(./Poppins-Regular.svg#Poppins-Regular) format('svg'),
+         url(./Poppins-Regular.ttf) format('truetype'),
+         url(./Poppins-Regular.woff) format('woff'),
+         url(./Poppins-Regular.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'JosefinSans-Bold';
+    src: url(./JosefinSans-Bold.eot);
+    src: url(./JosefinSans-Bold.eot?#iefix) format('embedded-opentype'),
+         url(./JosefinSans-Bold.otf) format('otf'),
+         url(./JosefinSans-Bold.svg#JosefinSans-Bold) format('svg'),
+         url(./JosefinSans-Bold.ttf) format('truetype'),
+         url(./JosefinSans-Bold.woff) format('woff'),
+         url(./JosefinSans-Bold.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'JosefinSans-SemiBold';
+    src: url(./JosefinSans-SemiBold.eot);
+    src: url(./JosefinSans-SemiBold.eot?#iefix) format('embedded-opentype'),
+         url(./JosefinSans-SemiBold.otf) format('otf'),
+         url(./JosefinSans-SemiBold.svg#JosefinSans-SemiBold) format('svg'),
+         url(./JosefinSans-SemiBold.ttf) format('truetype'),
+         url(./JosefinSans-SemiBold.woff) format('woff'),
+         url(./JosefinSans-SemiBold.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'OpenSans-Bold';
+    src: url(./OpenSans-Bold.eot);
+    src: url(./OpenSans-Bold.eot?#iefix) format('embedded-opentype'),
+         url(./OpenSans-Bold.otf) format('otf'),
+         url(./OpenSans-Bold.svg#OpenSans-Bold) format('svg'),
+         url(./OpenSans-Bold.ttf) format('truetype'),
+         url(./OpenSans-Bold.woff) format('woff'),
+         url(./OpenSans-Bold.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url(./OpenSans-SemiBold.eot);
+    src: url(./OpenSans-SemiBold.eot?#iefix) format('embedded-opentype'),
+         url(./OpenSans-SemiBold.otf) format('otf'),
+         url(./OpenSans-SemiBold.svg#OpenSans-SemiBold) format('svg'),
+         url(./OpenSans-SemiBold.ttf) format('truetype'),
+         url(./OpenSans-SemiBold.woff) format('woff'),
+         url(./OpenSans-SemiBold.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(./OpenSans-Regular.eot);
+    src: url(./OpenSans-Regular.eot?#iefix) format('embedded-opentype'),
+         url(./OpenSans-Regular.otf) format('otf'),
+         url(./OpenSans-Regular.svg#OpenSans-Regular) format('svg'),
+         url(./OpenSans-Regular.ttf) format('truetype'),
+         url(./OpenSans-Regular.woff) format('woff'),
+         url(./OpenSans-Regular.woff2) format('woff2');
+  }
